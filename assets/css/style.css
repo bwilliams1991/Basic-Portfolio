@@ -62,14 +62,9 @@ h6 {
 
 }
 
-.the-space-between {
-	order: 1;
-	display: none;
-}
-
 nav {
 	padding: 30px 0px 30px 0px;
-	margin: 0px 0px 1px 0px;/* see notes on header*/
+	margin: 0px 0px 1px 0px;
 	font-size: 18px;
 	order: 2;
 	margin: auto;
@@ -99,7 +94,8 @@ nav {
 	width: 650px;
 	float: left;
 	background: #ffffff;
-	border: #dddddd;	
+	border: #dddddd;
+	margin-bottom: 120px;	
 }
 
 .sidebar {
@@ -124,34 +120,19 @@ a .sidebar {
 	position: relative;
 }
 
-.img-left {
-	margin: 20px 0px 50px 40px;
+.img-holder {
 	float: left;
 	position: relative;
+	margin: 20px 0px 20px 50px;
 }
 
-.img-right {
-	margin: 20px 20px 50px 70px;
-	float: left;
-	position: relative;
-}
-
-.folio-left {
+.img-text {
 	position: absolute;
+	top: 135px;
+	padding: 15px 63px 15px 63px;
 	font-size: 24px;
-	top: 250px;
-	left: 40px;
-	padding: 10px 64px 10px 62px;
 }
 
-.folio-right {
-	position: absolute;
-	font-size: 24px;
-	top: 250px;
-	left: 40px;
-	padding: 10px 62px 10px 64px;
-	margin-left: 320px;
-}
 .bio-text {
 	margin: 25px 20px 50px 30px;
 	line-height: 20px;
@@ -209,8 +190,8 @@ footer {
 	text-align: center;
 	font-size: 12px;
 	padding: 30px 0px 30px 0px;
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
-  left: 0;
+	left: 0;
 }
